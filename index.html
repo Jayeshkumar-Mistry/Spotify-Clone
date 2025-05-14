@@ -1,0 +1,103 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="/css/stylesheet.css" />
+    <link rel="stylesheet" href="/css/utility.css" />
+    <link rel="icon" href="/img/favicon.ico" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="nav">
+        <div class="left">
+          <div class="logoimg">
+            <img src="/img/logo.png" alt="SpotifyLogo" />
+          </div>
+        </div>
+        <div class="middle">
+          <div class="homeimg">
+            <img src="/img/home.svg" alt="homelogo" />
+          </div>
+          <div class="searchbox">
+            <img src="/img/search.svg" alt="searchlogo" id="searchlogo" />
+            <input
+              type="text"
+              name="search"
+              id="searchbox"
+              placeholder="What do you want to play?"
+            />
+            <img src="/img/browse.svg" alt="browselogo" id="browselogo" />
+          </div>
+        </div>
+        <div class="right">
+          <div class="signup">
+            <a href="#">Sign up</a>
+          </div>
+          <div class="login">
+            <button>Log in</button>
+          </div>
+        </div>
+      </div>
+    
+      <div class="main">
+        <div class="leftpart">
+          <div class="librarynav">
+            <div id="leftbox">
+              <img class="crossicon" src="/img/cross.svg" alt="" />
+              <span>Your Library</span>
+            </div>
+            <div id="rightbox">
+              <img src="/img/plusicon.svg" alt="plusicon" />
+            </div>
+          </div>
+          <div class="songList">
+            <ul>
+              
+            </ul>
+          </div>
+          <div class="footer">
+            <div><a href="#">Legal</a></div>
+            <div><a href="#">Safety & Privacy Center</a></div>
+            <div><a href="#">Privacy Policy</a></div>
+            <div><a href="#">Cookies</a></div>
+            <div><a href="#">About Ads</a></div>
+            <div><a href="#">Accessibility</a></div>
+          </div>
+        </div>
+        <div class="rightpart">
+          <div class="headcardcombinecont">
+            <div class="head">
+              <img class="hamburger" src="/img/librarylogo.svg" alt="librarylogo" />
+              <h2>Popular albums</h2>
+            </div>
+            <div class="cardcontainer">
+            
+            </div>
+          </div>
+          <div class="playbar">
+            <div class="seekbar">
+              <div class="circle"></div>
+            </div>
+            <div class="abovebar">
+              <div class="songdetails"></div>
+              <div class="icon">
+                <img id="previous" src="/img/previous.svg" alt="previous" />
+                <img id="play" src="/img/play.svg" alt="play" />
+                <img id="next" src="/img/forward.svg" alt="forward" />
+              </div>
+              <div class="timevolume">
+                <div class="volume">
+                  <img src="/img/volume.svg" alt="volumeicon" />
+                  <input class = "range" type="range" name="range" />
+                </div>
+                <div class="songtime"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/js/script.js"></script>
+  </body>
+</html>
